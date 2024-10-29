@@ -1,0 +1,126 @@
+body{margin: 0;
+    padding: 0;
+background: rgb(24, 133, 24);
+height: 100vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+display: flex;
+
+}
+.body-hidden{margin: 0;
+    padding: 0;
+background: rgb(76, 58, 155);
+height: 100vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+display: flex;
+}
+.contact-container{
+display: grid;
+margin-top: 16px;
+     height: 670px;
+    width: 700px;
+    background:rgb(155, 235, 155);
+border-radius: 10px;
+margin-left: 26%;
+border-color: #9beb9b;
+box-shadow: 6px 8px 8px 6px rgba(6, 102, 38, 0.5);
+border-top-color:aqua;
+border-style: solid;
+border-width: 2px;
+transition: ease-in-out 0.5s;
+position: relative;
+overflow: hidden;
+}
+.contact-form{
+    cursor: pointer;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  black;
+    font-size: 34px;
+}
+    
+.contact-button{
+ 
+  margin-left:290px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background: rgb(49, 170, 45);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.15s,background-color 0.15s,color 0.15s;
+    box-shadow:  6px 5px 4px rgba(0, 0, 0, 0.12);
+    animation: fadeOut 2s forwards;
+    animation-timeline:scroll;   
+    
+        
+}
+
+.contact-input{
+
+    margin-top: 8%;
+    border-width:2px;
+    border-style: solid;
+    border-color:  rgb(63, 189, 63);
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(18, 131, 84);
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;       
+     
+}
+#placeholder{
+    height: 40px;
+    background:rgb(221, 238, 221);
+    color: black;
+    font-size: 20px;
+}
+.placeholder-hidden{
+    height: 40px;
+    background:rgb(221, 238, 221);
+    color: rgb(113, 181, 226);
+    font-size: 20px;
+    transform: scale(-4px);
+}
+.contact-button:hover{
+    background-color: rgb(82, 204, 133);
+    color: black;
+    transform: scale(1.2);
+    opacity: 0.9;
+    
+}
+.contact-button:active{
+    background-color: red;
+    color: white;
+    
+    
+}
+.contact-container-hidden{
+    
+    display: grid;
+    margin-top: 18px;
+         height: 670px;
+        width: 700px;
+        background:rgb(157, 215, 238);
+    border-radius: 10px;
+    margin-left: 26%;
+    border-color: #89f9fd;
+    box-shadow: 6px 8px 8px 6px rgba(6, 102, 38, 0.5);
+    border-top-color:rgb(117, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    transition: ease-in-out 0.5s;
+    position: absolute;
+
+}
